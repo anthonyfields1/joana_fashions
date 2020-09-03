@@ -35,6 +35,16 @@ p {
 img {
 	float: left;
 }
+img {
+	width: 600px;
+	height: 400px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
 
 footer {
 	clear: both;
